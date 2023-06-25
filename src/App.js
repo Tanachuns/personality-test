@@ -21,7 +21,6 @@ function App() {
   <Helper next={next}/>,
   <Result result={result}/>
 ]
-  console.log(page);
   return (
    <main className='main row'>
       {pages[page]}
