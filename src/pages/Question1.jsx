@@ -3,7 +3,6 @@ import React from 'react'
 export default function Question1(props) {
   const changeHandler = (e)=>{
     props.setResult(e.target.value)
-    console.log(e.target.value);
   }
   return (
     <>
