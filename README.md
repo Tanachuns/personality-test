@@ -8,7 +8,7 @@ I'm trying to start to build a web site as a hobby but it's not gonna ending jus
 
 ## Features
 - [x] Be What you want. (A result is what you selected.).
-- [ ] Real question with relatable research.
+- [x] Real question.
 - [ ] Export a result as image.
 - [ ] Share a result as instagram story.
 - [ ] metadata for seo.
