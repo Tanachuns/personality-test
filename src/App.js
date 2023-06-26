@@ -27,7 +27,7 @@ function App() {
   <Question next={next} setResult={setResult} page={page-1} question={questions[4]}/>,
   <Question next={next} setResult={setResult} page={page-1} question={questions[5]}/>,
   <Question next={next} setResult={setResult} page={page-1} question={questions[6]}/>,
- // <Helper next={next}/>,
+ <Helper next={next}/>,
   <Result result={result}/>
 ]
   return (
