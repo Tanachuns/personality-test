@@ -63,7 +63,7 @@ body{
   display: none;
 }
 
-.form-check:has(.form-check-input:checked){
+/* .form-check:has(.form-check-input:checked){
   background-color: #CBC3E3;
   
-}
+} */
