@@ -17,7 +17,6 @@ If you score 19-21: You are likely an extrovert.*/
     type="Extrovert"
     text = "You're a social superhero, spreading positivity and making connections wherever you go! You thrive in the spotlight, love adventures, and have an infectious energy. Your optimism inspires others, and you're always ready for new experiences and meeting people."
   }
-  console.log(props.result);
 
   return (
     <>
