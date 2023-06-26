@@ -20,14 +20,14 @@ function App() {
   const pages = [
   <Home next={next}/>,
   <Test next={next}/>,
-  <Question next={next} setResult={setResult} question={questions[0]}/>,
-  <Question next={next} setResult={setResult} question={questions[1]}/>,
-  <Question next={next} setResult={setResult} question={questions[2]}/>,
-  <Question next={next} setResult={setResult} question={questions[3]}/>,
-  <Question next={next} setResult={setResult} question={questions[4]}/>,
-  <Question next={next} setResult={setResult} question={questions[5]}/>,
-  <Question next={next} setResult={setResult} question={questions[6]}/>,
-  <Helper next={next}/>,
+  <Question next={next} setResult={setResult} page={page-1} question={questions[0]}/>,
+  <Question next={next} setResult={setResult} page={page-1} question={questions[1]}/>,
+  <Question next={next} setResult={setResult} page={page-1} question={questions[2]}/>,
+  <Question next={next} setResult={setResult} page={page-1} question={questions[3]}/>,
+  <Question next={next} setResult={setResult} page={page-1} question={questions[4]}/>,
+  <Question next={next} setResult={setResult} page={page-1} question={questions[5]}/>,
+  <Question next={next} setResult={setResult} page={page-1} question={questions[6]}/>,
+ // <Helper next={next}/>,
   <Result result={result}/>
 ]
   return (

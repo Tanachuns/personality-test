@@ -5,7 +5,7 @@ export default function Question(props) {
   const choice1 = props.question.choice1;
   const choice2 = props.question.choice2;
   const choice3 = props.question.choice3;
-
+  
   const clickHandler = (e)=>{
     props.setResult(prev=>parseInt(prev)+parseInt(e.target.value))
     props.next()
@@ -15,7 +15,7 @@ export default function Question(props) {
     <>
     <div className='box col-lg-6 col-sm-12'>
         <span class="dot">
-          1
+          {props.page}
         </span>
         <div className="row text-center">
         <h1>{question}</h1>
