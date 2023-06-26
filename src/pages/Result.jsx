@@ -5,7 +5,7 @@ export default function Result(props) {
 If you score 15-18: You are likely an ambivert.
 If you score 19-21: You are likely an extrovert.*/
   let text,type;
-  if(props.result>12&&props.result<=14){
+  if(props.result<=14){
     type="Introvert"
     text = "You're a thoughtful wizard, diving deep into your inner world. Peaceful moments recharge you, and you value close-knit friendships. Your empathy and listening skills shine, and you offer meaningful insights. Your optimism comes through in your ability to understand others and offer valuable perspectives."
   }
@@ -17,7 +17,7 @@ If you score 19-21: You are likely an extrovert.*/
     type="Extrovert"
     text = "You're a social superhero, spreading positivity and making connections wherever you go! You thrive in the spotlight, love adventures, and have an infectious energy. Your optimism inspires others, and you're always ready for new experiences and meeting people."
   }
-      
+  console.log(props.result);
 
   return (
     <>

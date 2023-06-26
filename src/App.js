@@ -30,6 +30,7 @@ function App() {
  <Helper next={next}/>,
   <Result result={result}/>
 ]
+console.log(result);
   return (
    <main className='main row'>
       {pages[page]}
